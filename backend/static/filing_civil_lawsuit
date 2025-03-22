@@ -1,0 +1,36 @@
+digraph {
+	rankdir=TB size=8
+	step0 [label="File Plaint at the Relevant Court"]
+	step1 [label="District Court (if the claim exceeds LKR 1.5M)"]
+	step0 -> step1
+	step2 [label="Magistrateâ€™s Court (if the claim is less than or equal to LKR 1.5M)"]
+	step1 -> step2
+	step3 [label="Pay Court Fees (based on claim amount, as per the court's fee structure)"]
+	step2 -> step3
+	step4 [label="Court Issues Summons to Defendant (Defendant has 14 days to respond)"]
+	step3 -> step4
+	step5 [label="Does the Defendant File an Answer?"]
+	step4 -> step5
+	step6 [label="Yes â†’ Proceed to Pre-Trial"]
+	step5 -> step6
+	step7 [label="No â†’ Default Judgment Issued"]
+	step6 -> step7
+	step8 [label="Pre-Trial & Mediation (Attempt at settlement or alternative dispute resolution)"]
+	step7 -> step8
+	step9 [label="Settlement? â†’ Case Closed"]
+	step8 -> step9
+	step10 [label="No Settlement â†’ Proceed to Trial"]
+	step9 -> step10
+	step11 [label="Trial & Evidence Review (Plaintiff and Defendant present their arguments, witnesses, and evidence)"]
+	step10 -> step11
+	step12 [label="Court Issues Judgment"]
+	step11 -> step12
+	step13 [label="Favorable to Plaintiff? â†’ Go to Enforcement"]
+	step12 -> step13
+	step14 [label="Favorable to Defendant? â†’ Case Dismissed / Appeal Option"]
+	step13 -> step14
+	step15 [label="Enforcement of Judgment (Execution of the court's decision, like garnishment, asset seizure, etc.)"]
+	step14 -> step15
+	step16 [label=End]
+	step15 -> step16
+}

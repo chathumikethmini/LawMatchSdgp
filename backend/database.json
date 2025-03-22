@@ -1,0 +1,219 @@
+{
+  "filing_civil_lawsuit": {
+    "title": "Filing a Civil Lawsuit",
+    "steps": [
+      "File Plaint at the Relevant Court",
+      "District Court (if the claim exceeds LKR 1.5M)",
+      "Magistrate’s Court (if the claim is less than or equal to LKR 1.5M)",
+      "Pay Court Fees (based on claim amount, as per the court's fee structure)",
+      "Court Issues Summons to Defendant (Defendant has 14 days to respond)",
+      "Does the Defendant File an Answer?",
+      "Yes → Proceed to Pre-Trial",
+      "No → Default Judgment Issued",
+      "Pre-Trial & Mediation (Attempt at settlement or alternative dispute resolution)",
+      "Settlement? → Case Closed",
+      "No Settlement → Proceed to Trial",
+      "Trial & Evidence Review (Plaintiff and Defendant present their arguments, witnesses, and evidence)",
+      "Court Issues Judgment",
+      "Favorable to Plaintiff? → Go to Enforcement",
+      "Favorable to Defendant? → Case Dismissed / Appeal Option",
+      "Enforcement of Judgment (Execution of the court's decision, like garnishment, asset seizure, etc.)",
+      "End"
+    ]
+  },
+  "breach_of_contract": {
+    "title": "Filing a Complaint for Breach of Contract",
+    "steps": [
+      "File Plaint at the Relevant Court",
+      "District Court (if claim exceeds LKR 1.5M)",
+      "Magistrate’s Court (if claim is less than or equal to LKR 1.5M)",
+      "Pay Court Fees (Calculate fees based on the contract's value)",
+      "Court Issues Summons to Defendant (Defendant must reply within 14 days)",
+      "Does the Defendant File an Answer?",
+      "Yes → Proceed to Pre-Trial",
+      "No → Default Judgment Issued",
+      "Pre-Trial & Mediation (Attempts for an amicable settlement)",
+      "Settlement? → Case Closed",
+      "No Settlement → Proceed to Trial",
+      "Trial & Evidence Review (Present the contract, correspondence, and evidence of breach)",
+      "Court Issues Judgment",
+      "Favorable to Plaintiff? → Go to Enforcement",
+      "Favorable to Defendant? → Case Dismissed / Appeal Option",
+      "Enforcement of Judgment (court orders compensation, repair, or specific performance)",
+      "End"
+    ]
+  },
+  "property_damage": {
+    "title": "Filing a Complaint for Property Damage",
+    "steps": [
+      "File Plaint at the Relevant Court",
+      "District Court (for claims above LKR 1.5M)",
+      "Magistrate’s Court (for claims below LKR 1.5M)",
+      "Pay Court Fees (Fees are based on the damage amount)",
+      "Court Issues Summons to Defendant",
+      "Does the Defendant File an Answer?",
+      "Yes → Proceed to Pre-Trial",
+      "No → Default Judgment Issued",
+      "Pre-Trial & Mediation (A chance to resolve the issue without a trial)",
+      "Settlement? → Case Closed",
+      "No Settlement → Proceed to Trial",
+      "Trial & Evidence Review (Present documents such as repair estimates, photographs, and witnesses)",
+      "Court Issues Judgment",
+      "Favorable to Plaintiff? → Go to Enforcement",
+      "Favorable to Defendant? → Case Dismissed / Appeal Option",
+      "Enforcement of Judgment (Enforcement methods like asset seizure may be applied)",
+      "End"
+    ]
+  },
+  "personal_injury": {
+    "title": "Filing for Compensation for Personal Injury",
+    "steps": [
+      "File Plaint at the Relevant Court",
+      "District Court (if claim exceeds LKR 1.5M)",
+      "Magistrate’s Court (if claim is ≤ LKR 1.5M)",
+      "Pay Court Fees (Fees depend on the amount of compensation requested)",
+      "Court Issues Summons to Defendant",
+      "Does the Defendant File an Answer?",
+      "Yes → Proceed to Pre-Trial",
+      "No → Default Judgment Issued",
+      "Pre-Trial & Mediation (Effort to reach a settlement)",
+      "Settlement? → Case Closed",
+      "No Settlement → Proceed to Trial",
+      "Trial & Evidence Review (Present medical records, doctor's reports, accident reports)",
+      "Court Issues Judgment",
+      "Favorable to Plaintiff? → Go to Enforcement",
+      "Favorable to Defendant? → Case Dismissed / Appeal Option",
+      "Enforcement of Judgment (Defendant's assets may be seized if payment is not made)",
+      "End"
+    ]
+  },
+  "divorce_procedure": {
+    "title": "Step-by-Step Divorce Procedure in Sri Lanka",
+    "steps": [
+      "Understanding Grounds for Divorce (Adultery, Malicious Desertion, Incurable Impotency.  Mutual consent is not a valid reason.)",
+      "Hiring a Lawyer (Assess divorce grounds, gather evidence, discuss legal fees.) [Uncontested: LKR 75,000 to 150,000 | Contested: LKR 150,000 to 500,000+]",
+      "Filing for Divorce in the District Court (File Plaint, pay court stamp fee, receive case number and hearing date.) [Filing Fees: LKR 3,000 to 10,000 | Stamp Duty: LKR 1,000 to 5,000]",
+      "Serving Summons to the Respondent (Summons issued; if the respondent doesnt appear, court may proceed ex-parte.) [Summons Cost: LKR 1,500 to 5,000]",
+      "Mediation and Reconciliation Attempts (Court may refer to mediation; if reconciliation fails, the case proceeds.) [Mediation: Usually free]",
+      "Trial Proceedings (If Mediation Fails) (Petitioner presents evidence; respondent can defend.) [Legal Fees: LKR 250,000 to 1,000,000+]",
+      "Courts Decision (Issuing Decree Nisi) (If evidence is sufficient, Decree Nisi is issued; 3-month waiting period applies.  Appeal possible.) [Court Costs: LKR 5,000 to 15,000]",
+      "Issuing the Final Divorce Order (Decree Absolute) (After 3 months, court issues Decree Absolute, legally ending the marriage.) [Final Divorce Certificate: LKR 1,500 to 3,000]",
+      "Settling Related Matters (Child Custody: Determined by court [LKR 50,000 to 200,000] | Property Division: Based on contributions [LKR 100,000 to 500,000+] | Alimony: Ordered if spouse is financially dependent.)"
+    ]
+  },
+  "animal_attack_procedure": {
+    "title": "Step-by-Step Procedure for Animal Attack Cases in Sri Lanka",
+    "steps": [
+      "Seeking Immediate Medical Attention (Visit the nearest hospital, obtain medical records, and report the injury to the doctor.) [Hospital Fees: LKR 2,000 to 25,000 depending on severity]",
+      "Reporting the Incident to Police (File a complaint at the local police station, provide details of the attack, and obtain a police report.) [Police Report: Free]",
+      "Identifying the Responsible Party (If the animal has an owner, they may be held liable. If it's a stray, municipal authorities may be responsible.)",
+      "Consulting a Lawyer (Discuss legal options, gather evidence such as medical reports, witness statements, and photos.) [Legal Consultation Fees: LKR 5,000 to 25,000]",
+      "Filing a Case in the District Court (Initiate a civil lawsuit against the responsible party for compensation.) [Filing Fees: LKR 3,000 to 10,000 | Court Stamp Duty: LKR 1,000 to 5,000]",
+      "Summoning the Defendant (Court issues summons to the responsible party to appear in court.) [Summons Cost: LKR 1,500 to 5,000]",
+      "Mediation or Out-of-Court Settlement (Parties may opt for mediation to reach a settlement without proceeding to trial.) [Mediation: Free or LKR 5,000 to 15,000 if private]",
+      "Trial Proceedings (If no settlement is reached, the case proceeds to trial where both parties present evidence.) [Legal Fees: LKR 50,000 to 300,000+ depending on complexity]",
+      "Court Decision and Compensation (If the court rules in favor of the victim, compensation is awarded based on medical costs, lost wages, and suffering.) [Court Costs: LKR 5,000 to 15,000]",
+      "Appeal Process (If either party is dissatisfied with the judgment, they may appeal to the Provincial High Court.) [Appeal Fees: LKR 10,000 to 50,000]",
+      "Final Settlement and Compensation Payment (Once the verdict is finalized, the liable party must pay compensation as ordered by the court.)"
+    ]
+  },
+  "wrongful_birth_procedure": {
+    "title": "Step-by-Step Procedure for Wrongful Birth or Wrongful Life Claims in Sri Lanka",
+    "steps": [
+      "Understanding the Legal Basis (Wrongful birth and wrongful life cases fall under medical negligence law. Parents can sue a doctor or hospital if they failed to detect or disclose a congenital disability that could have led to a different medical decision.)",
+      
+      "Hiring a Medical Negligence Lawyer (Consult a lawyer specializing in medical malpractice to assess the case and review medical records.) [Consultation Fees: LKR 10,000 to 50,000 | Case Preparation Fees: LKR 50,000 to 200,000]",
+      
+      "Gathering Evidence (Collect all medical records, expert medical opinions, and witness testimonies to prove negligence.) [Medical Reports & Expert Opinions: LKR 5,000 to 20,000]",
+      
+      "Filing a Case in the District Court (File a lawsuit in the District Court where the negligence occurred, with a plaint detailing the medical malpractice and damages sought.) [Filing Fees: LKR 3,000 to 10,000 | Stamp Duty: LKR 1,000 to 5,000]",
+      
+      "Serving Summons to the Defendant (Summons is issued to the doctor or hospital, requiring them to respond. If they fail to appear, the court may proceed ex-parte.) [Summons Cost: LKR 1,500 to 5,000]",
+      
+      "Mediation and Settlement Discussions (The court may encourage mediation between the parties to reach a settlement before trial.) [Court-Supervised Mediation: Free | Private Mediation: LKR 5,000 to 15,000]",
+      
+      "Trial Proceedings at the District Court (If mediation fails, the case goes to trial. Both sides present arguments, medical expert testimonies, and evidence.) [Legal Fees for Trial: LKR 100,000 to 500,000+]",
+      
+      "Courts Decision and Awarding of Compensation (If the court finds the doctor/hospital guilty of negligence, compensation is awarded for medical expenses, emotional distress, and future costs of care.) [Court Costs: LKR 5,000 to 15,000]",
+      
+      "Appeal Process (If either party is dissatisfied with the ruling, they can file an appeal at the Provincial High Court within 30 days.) [Appeal Fees: LKR 10,000 to 50,000]",
+      
+      "Final Settlement and Compensation Payment (If the ruling is in favor of the plaintiff, the hospital/doctor must pay the awarded compensation. If they fail, legal enforcement measures can be taken.)"
+    ]
+  },
+  "land_dispute_procedure": {
+    "title": "Step-by-Step Land Dispute Resolution in Sri Lanka",
+    "steps": [
+      "Understanding the Nature of the Dispute (Determine if the issue is ownership, boundary conflict, or encroachment. Gather necessary documents like title deeds and survey plans.)",
+      "Hiring a Land Lawyer (Consult a property law specialist to assess legal options and documentation.) [Consultation Fees: LKR 10,000 to 50,000 | Case Preparation: LKR 50,000 to 200,000]",
+      "Obtaining Land Documents and Surveys (Collect essential documents such as title deeds, land registry extracts, and an updated survey plan from a licensed surveyor.) [Certified Copies: LKR 2,000 to 5,000 | Survey Plan: LKR 10,000 to 50,000 | Land Registry Extracts: LKR 1,000 to 3,000]",
+      "Sending a Legal Notice (A lawyer issues a notice to the opposing party requesting a resolution before litigation.) [Legal Notice Cost: LKR 5,000 to 15,000]",
+      "Filing a Case in the District Court (If no resolution is reached, a lawsuit is filed at the relevant District Court where the land is located.) [Filing Fees: LKR 3,000 to 10,000 | Stamp Duty: LKR 1,000 to 5,000]",
+      "Serving Summons to the Defendant (Court issues summons to notify the opposing party of the legal action.) [Summons Cost: LKR 1,500 to 5,000]",
+      "Court-Ordered Mediation (Optional) (The court may suggest mediation to resolve the dispute before trial.) [Court Mediation: Free | Private Mediation: LKR 5,000 to 15,000]",
+      "Trial Proceedings in the District Court (If mediation fails, the case proceeds to trial where both parties present evidence, witnesses, and legal arguments.) [Legal Fees: LKR 100,000 to 500,000+ | Court Costs: LKR 5,000 to 15,000]",
+      "Court Decision and Judgment (The court rules on the ownership, boundaries, or encroachment claims. The losing party may be required to vacate or compensate the rightful owner.)",
+      "Appeal Process (If Necessary) (If dissatisfied, a party can appeal the District Courts ruling to the Civil Appellate High Court and, in rare cases, the Supreme Court.) [Appeal Filing Fees: LKR 10,000 to 50,000 | Appeal Legal Fees: LKR 200,000 to 1,000,000+]",
+      "Execution of the Court Order (If the defendant refuses to comply, the court enforces the ruling through eviction orders, police assistance, or compensation recovery.)"
+    ]
+  },
+  "contractual_dispute_procedure": {
+    "title": "Step-by-Step Contractual Dispute Resolution Procedure in Sri Lanka",
+    "steps": [
+      "Understanding the Contract Dispute (Identify the type of breach: non-payment, failure to perform, or violation of contract terms. Gather all necessary documents such as contracts, invoices, and communication records.)",
+      "Hiring a Commercial Lawyer (Consult a lawyer specializing in contract law to assess legal standing and possible solutions.) [Initial Consultation: LKR 10,000 to 50,000 | Case Preparation: LKR 50,000 to 250,000]",
+      "Sending a Legal Notice (The lawyer issues a formal demand to the defaulting party, requesting compliance within a set period, typically 7 to 30 days.) [Legal Notice Cost: LKR 5,000 to 20,000]",
+      "Negotiation and Settlement Attempts (Attempt resolution through direct discussions, mediation, or arbitration before filing a lawsuit.) [Mediation: LKR 5,000 to 25,000 | Arbitration: LKR 50,000 to 500,000+]",
+      "Filing a Lawsuit in the Appropriate Court (If no settlement is reached, the plaintiff files a case in either the District Court or Commercial High Court.) [District Court/Commercial High Court Filing Fees: LKR 3,000 to 20,000 | Stamp Duty: LKR 2,000 to 10,000]",
+      "Serving Summons to the Defendant (The court issues summons requiring the defendant to respond within 14 to 21 days. If they fail to appear, the court may proceed ex-parte.) [Summons Cost: LKR 1,500 to 5,000]",
+      "Court Hearings and Trial Process (Both parties present evidence, witnesses, and legal arguments. The case is reviewed by the judge and may take months to years.) [Legal Fees: LKR 100,000 to 500,000+ | Court Costs: LKR 5,000 to 20,000]",
+      "Court Judgment and Remedies (The court issues a decision, which may include enforcing the contract, awarding compensation, or terminating the contract.) [Appeal Costs (if applicable): LKR 10,000 to 50,000 | Lawyer Fees: LKR 200,000 tp 1,000,000+]",
+      "Execution of Court Order (If the defendant refuses to comply, the plaintiff can request enforcement through asset seizure, account freezing, or police intervention.) [Execution Cost: LKR 5,000 to 25,000]"
+    ]
+  },
+  "medical_negligence_procedure": {
+    "title": "Step-by-Step Medical Negligence Claim Procedure in Sri Lanka",
+    "steps": [
+      "Understanding Medical Negligence (Misdiagnosis, surgical errors, incorrect medication, lack of informed consent, failure to provide treatment.)",
+      "Consulting a Medical Malpractice Lawyer (Assess case strength, review medical records, estimate compensation.) [Initial Consultation: LKR 10,000 to 50,000 | Full Case Representation: LKR 100,000 to 500,000+]",
+      "Obtaining a Medical Expert Opinion (Independent medical professional reviews case, provides report as evidence.) [Expert Opinion Cost: LKR 50,000 to 200,000+]",
+      "Filing a Complaint with the Sri Lanka Medical Council (Optional) (SLMC reviews doctors conduct, may take disciplinary action.) [Filing Cost: Free | Legal Assistance: Additional fees apply]",
+      "Filing a Lawsuit in District Court or High Court (Claim compensation based on damages suffered.) [District Court (Under LKR 5M) | High Court (Over LKR 5M)] [Filing Fees: LKR 3,000 to 15,000 | Stamp Duty: LKR 1,000 to 5,000]",
+      "Serving Summons to the Defendant (Notifies doctor, hospital, or medical institution of lawsuit.) [Summons Cost: LKR 1,500 to 5,000]",
+      "Mediation and Settlement Discussions (Court may recommend mediation to resolve dispute without trial.) [Mediation: Usually free]",
+      "Trial Proceedings in Court (Both parties present evidence, witnesses, and expert opinions.) [Legal Fees: LKR 250,000 to 1,500,000+]",
+      "Court Judgment and Compensation Award (Court decides based on medical evidence and negligence claim.) [Court Costs: LKR 5,000 to 25,000 | Compensation varies based on damages]",
+      "Appeals Process (If necessary) (Appeal to Court of Appeal or Supreme Court if unsatisfied with ruling.) [Appeal Costs: LKR 200,000 to 1,000,000+]"
+    ]
+  },
+  "defamation_procedure": {
+    "title": "Step-by-Step Defamation Case Procedure in Sri Lanka",
+    "steps": [
+      "Understanding Defamation (Defamation is categorized as libel (written) or slander (spoken). Plaintiffs must prove reputational harm and malicious intent.)",
+      "Hiring a Lawyer (Consult a defamation lawyer to assess case strength and gather evidence.) [Consultation Fees: LKR 10,000 to 50,000 | Full Representation: LKR 100,000 to 500,000+]",
+      "Sending a Legal Notice (Lawyer issues a formal demand for retraction, apology, or compensation before litigation.) [Legal Notice Cost: LKR 10,000 to 30,000]",
+      "Filing a Case in Court (Civil cases are filed in the District Court for monetary damages, while criminal cases go to the Magistrates Court for penalties.) [Filing Fees: LKR 3,000 to 10,000 | Stamp Duty: LKR 1,000 to 5,000]",
+      "Serving Summons to the Defendant (The court issues a summons; if the defendant does not appear, the case may proceed ex-parte.) [Summons Cost: LKR 1,500 to5,000]",
+      "Court Hearings and Trial Proceedings (Both parties present evidence, including witness statements, publications, or recordings.) [Legal Fees: LKR 250,000 to 1,000,000+ | Court Fees: LKR 5,000 to 20,000]",
+      "Judgment and Compensation (If proven, the plaintiff may be awarded damages or the defendant may face fines or imprisonment.) [Civil Compensation: LKR 500,000 to 10,000,000+ | Criminal Fines: LKR 50,000 to 500,000 | Imprisonment: Up to 2 years]",
+      "Appeals Process (If dissatisfied with the verdict, either party can appeal to the Court of Appeal or Supreme Court.) [Appeal Costs: LKR 300,000 to 1,000,000+]"
+    ]
+  },
+  "assault_bodily_harm_procedure": {
+    "title": "Step-by-Step Procedure for Assault & Bodily Harm Cases in Sri Lanka",
+    "steps": [
+      "Filing a Police Complaint (Report the incident at the nearest police station, providing details of the attack, assailant identity, and witnesses.) [Cost: Free]",
+      "Medical Examination & Report (Undergo medical examination at a government hospital or by a Judicial Medical Officer. The Medico-Legal Report will be used as evidence.) [Estimated Cost: LKR 1,500 to 5,000]",
+      "Police Investigation & Arrest (Police collect evidence, interview witnesses, and examine CCTV footage. If sufficient evidence is found, the suspect is arrested and presented before the Magistrates Court.) [Lawyer Consultation: LKR 10,000 to 50,000]",
+      "Filing Charges in the Magistrates Court (Police submit findings to the Magistrates Court, where the case is formally filed.) [Filing Fees: LKR 3,000 to 10,000]",
+      "Bail Hearing (If the accused is in custody, they may apply for bail. The court decides based on case severity.) [Bail Application: LKR 5,000 to 25,000 | Bail Amount: LKR 50,000 to 500,000+]",
+      "Trial & Evidence Presentation (Prosecution and defense present their arguments in the Magistrates Court, supported by medical reports, witness testimonies, and CCTV footage.) [Court Fees: LKR 5,000 to 15,000 | Legal Fees: LKR 100,000 to 500,000+]",
+      "Courts Decision & Sentencing (If found guilty, the accused may be fined, ordered to pay compensation, or sentenced to imprisonment.) [Appeal Costs (if applicable): LKR 200,000+]",
+      "Compensation & Civil Lawsuit (Victim may file a civil lawsuit in the District Court to claim medical expenses, loss of income, and emotional distress.) [Legal Fees: LKR 100,000 to 1,000,000+]"
+    ]
+  }
+  
+
+  
+
+}
