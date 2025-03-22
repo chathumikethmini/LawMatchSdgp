@@ -1,0 +1,146 @@
+.solutions {
+  min-height: 100vh;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.98));
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.solutions.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.solutions h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #d4af37;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.solution-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardFadeIn 0.8s ease-out forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(33.333% - 20px); /* 3 cards per row with gap consideration */
+  min-height: 300px;
+  box-sizing: border-box;
+}
+
+/* Make the 4th and 5th cards have different width to center them */
+.card:nth-child(4),
+.card:nth-child(5) {
+  width: calc(33.333% - 20px);
+  margin-top: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #d4af37;
+}
+
+.card-icon {
+  color: #d4af37;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.cta-button {
+  background: white;
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: auto;
+}
+
+.cta-button:hover {
+  background: #d4af37;
+  transform: translateY(-3px);
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .card {
+    width: calc(50% - 15px);
+  }
+  
+  .card:nth-child(4),
+  .card:nth-child(5) {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card,
+  .card:nth-child(4),
+  .card:nth-child(5) {
+    width: 100%;
+  }
+  
+  .solutions h2 {
+    font-size: 2rem;
+  }
+}
